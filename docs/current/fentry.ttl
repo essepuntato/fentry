@@ -1,0 +1,151 @@
+@prefix : <http://www.essepuntato.it/2014/03/fentry#> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+@prefix cpannotationschema: <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix fentry: <http://www.essepuntato.it/2014/03/fentry/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos1: <http://www.w3.org/2008/05/skos#> .
+@prefix sw-vocab-status: <http://www.w3.org/2003/06/sw-vocab-status/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fabio:hasManifestation a owl:ObjectProperty .
+
+frbr:ResponsibleEntity a owl:Class .
+
+frbr:partOf a owl:ObjectProperty .
+
+<http://www.essepuntato.it/2014/03/fentry> a owl:Ontology ;
+    rdfs:label "F Entry Ontology"@en ;
+    dc:creator "Marilena Daquino",
+        "Silvio Peroni"@en ;
+    dc:date "2016-12-15" ;
+    dc:description <http://svn.code.sf.net/p/dwellonit/code/FEO/fentry.png>,
+        """The Scheda F is a document containing metadata describing a photograph having as subject a concrete object (or part of it) or a group of different objects. 
+
+Any Scheda F (F), as well as the photograph (P) it describes and the subjects of such photograph (S), can be described in terms of some entities of the Functional Requirements for Bibliographic Records, i.e., Work (referring to the essence of the object; it applies to F, P and S), Expression (referring to the content of the object; it applies to F and, P), Manifestation (referring to the format of the object; it applies to P and S) and Item (referring to the physical location of the object; it applies to F, P and S). All these objects, i.e., the Scheda F, the photograph and the related object portrayed, are subject to authorial attribution as result of some production activity involving someone.
+
+Exemples of [usage](http://svn.code.sf.net/p/dwellonit/code/FEO/examples.html) of this ontology as well as exemplar [SPARQL queries](http://svn.code.sf.net/p/dwellonit/code/FEO/sparql.html) are available online."""@en ;
+    dc:title """F Entry (Scheda F) Ontology
+FEO"""@en ;
+    rdfs:comment "Description of a photograph: metadata and subjects."@en ;
+    owl:imports <http://purl.org/emmedi/hico>,
+        <http://purl.org/spar/cito/>,
+        <http://purl.org/spar/fabio>,
+        <http://purl.org/spar/pro/>,
+        <http://purl.org/spar/scoro/> ;
+    owl:versionIRI <http://www.essepuntato.it/2014/03/fentry/1.0> ;
+    owl:versionInfo 1.0 .
+
+fentry:describes a owl:ObjectProperty ;
+    rdfs:label "describes" ;
+    rdfs:comment "It allows one to link a Scheda F to the photograph and the portrayed object the Scheda F describes."@en ;
+    rdfs:domain fentry:FEntry ;
+    rdfs:range [ a owl:Class ;
+            owl:unionOf ( fentry:Photograph fentry:Shot [ a owl:Class ;
+                        owl:intersectionOf ( fabio:Expression [ a owl:Restriction ;
+                                    owl:onProperty fabio:hasRepresentation ;
+                                    owl:someValuesFrom [ a owl:Class ;
+                                            owl:intersectionOf ( fabio:Item [ a owl:Restriction ;
+                                                        owl:onProperty frbr:subjectOf ;
+                                                        owl:someValuesFrom fentry:Photograph ] ) ] ] ) ] [ a owl:Class ;
+                        owl:intersectionOf ( fabio:Item [ a owl:Restriction ;
+                                    owl:onProperty fabio:isPortrayalOf ;
+                                    owl:someValuesFrom fentry:Photograph ] ) ] [ a owl:Class ;
+                        owl:intersectionOf ( fabio:Manifestation [ a owl:Restriction ;
+                                    owl:onProperty frbr:embodimentOf ;
+                                    owl:someValuesFrom fentry:Shot ] ) ] [ a owl:Class ;
+                        owl:intersectionOf ( fabio:Manifestation [ a owl:Restriction ;
+                                    owl:onProperty frbr:exemplar ;
+                                    owl:someValuesFrom [ a owl:Class ;
+                                            owl:intersectionOf ( fabio:Item [ a owl:Restriction ;
+                                                        owl:onProperty frbr:subjectOf ;
+                                                        owl:someValuesFrom fentry:Photograph ] ) ] ] ) ] [ a owl:Class ;
+                        owl:intersectionOf ( fabio:Work [ a owl:Restriction ;
+                                    owl:onProperty fabio:hasPortrayal ;
+                                    owl:someValuesFrom [ a owl:Class ;
+                                            owl:intersectionOf ( fabio:Item [ a owl:Restriction ;
+                                                        owl:onProperty frbr:subjectOf ;
+                                                        owl:someValuesFrom fentry:Photograph ] ) ] ] ) ] [ a owl:Class ;
+                        owl:intersectionOf ( [ a owl:Class ;
+                                    owl:unionOf ( fabio:Item frbr:Object frbr:Place ) ] [ a owl:Restriction ;
+                                    owl:onProperty frbr:subjectOf ;
+                                    owl:someValuesFrom fentry:Photograph ] ) ] ) ] ;
+    owl:inverseOf fentry:isDescribedBy .
+
+xsd:date a rdfs:Datatype .
+
+xsd:gMonthYear a rdfs:Datatype .
+
+xsd:gYear a rdfs:Datatype .
+
+prov:Activity a owl:Class .
+
+prov:endedAtTime a owl:DatatypeProperty .
+
+prov:generated a owl:ObjectProperty .
+
+prov:startedAtTime a owl:DatatypeProperty .
+
+prov:wasAssociatedWith a owl:ObjectProperty .
+
+prov:wasAttributedTo a owl:ObjectProperty .
+
+fabio:Work a owl:Class .
+
+fabio:hasPortrayal a owl:ObjectProperty .
+
+frbr:subject a owl:ObjectProperty .
+
+fentry:FEntry a owl:Class ;
+    rdfs:label "scheda F"@it ;
+    rdfs:comment "It is a document containing metadata about a photograph and about the concrete object portrayed by the photograph."@en ;
+    rdfs:subClassOf fabio:EntityMetadata .
+
+fentry:isDescribedBy a owl:ObjectProperty ;
+    rdfs:label "is described by"@en ;
+    rdfs:comment "It allows one to link a photograph and portrayed object to the scheda F that describes them."@en .
+
+fabio:Manifestation a owl:Class .
+
+frbr:exemplar a owl:ObjectProperty .
+
+fentry:Shot a owl:Class ;
+    rdfs:label "shot"@en ;
+    rdfs:comment "The realisation of a photograph - it is strictly related with the act of taking the picture by someone."@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:unionOf ( fabio:AnalogManifestation [ a owl:Class ;
+                                owl:intersectionOf ( fabio:DigitalManifestation [ a owl:Restriction ;
+                                            owl:allValuesFrom fabio:ComputerFile ;
+                                            owl:onProperty frbr:exemplar ] ) ] ) ] ;
+            owl:onProperty frbr:embodiment ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom fentry:Photograph ;
+            owl:onProperty frbr:realizationOf ],
+        fabio:Expression .
+
+fabio:Item a owl:Class .
+
+fentry:Photograph a owl:Class ;
+    rdfs:label "photograph"@en ;
+    rdfs:comment "It is a static, visual representation of some concrete object (or part of it) or a group of different objects."@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty frbr:subject ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:unionOf ( fabio:AnalogItem frbr:Object frbr:Place [ a owl:Class ;
+                                owl:intersectionOf ( fabio:ItemCollection [ a owl:Restriction ;
+                                            owl:allValuesFrom fabio:AnalogItem ;
+                                            owl:onProperty frbr:part ] ) ] ) ] ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom fentry:Shot ;
+            owl:onProperty frbr:realization ],
+        fabio:StillImage .
+

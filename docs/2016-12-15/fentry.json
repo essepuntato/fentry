@@ -1,0 +1,853 @@
+[
+  {
+    "@id": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2014/03/fentry/Shot",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The realisation of a photograph - it is strictly related with the act of taking the picture by someone."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "shot"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://purl.org/spar/fabio/Expression"
+      },
+      {
+        "@id": "_:N47d8b2624e4b4661a04747de0b4c128f"
+      },
+      {
+        "@id": "_:N28d0b137dd5f4eceb2aa9fe25bf13ad2"
+      }
+    ]
+  },
+  {
+    "@id": "_:N47d8b2624e4b4661a04747de0b4c128f",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#realizationOf"
+      }
+    ]
+  },
+  {
+    "@id": "_:N28d0b137dd5f4eceb2aa9fe25bf13ad2",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:N2a05c3ec319849aa83aa1fe1e7c35eb6"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#embodiment"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2a05c3ec319849aa83aa1fe1e7c35eb6",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/AnalogManifestation"
+          },
+          {
+            "@id": "_:Nec383e0b90384fcd8b29e3c9115cd957"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Nec383e0b90384fcd8b29e3c9115cd957",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/DigitalManifestation"
+          },
+          {
+            "@id": "_:N21bb36a995fc4ce0a32eeb0af63385b8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N21bb36a995fc4ce0a32eeb0af63385b8",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/fabio/ComputerFile"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#exemplar"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/prov#wasAssociatedWith",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/prov#Activity",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2014/03/fentry/describes",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "It allows one to link a Scheda F to the photograph and the portrayed object the Scheda F describes."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.essepuntato.it/2014/03/fentry/FEntry"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "describes"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "_:Nd2ac57069ec64294aac6bc7a3845e6f1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.essepuntato.it/2014/03/fentry/isDescribedBy"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd2ac57069ec64294aac6bc7a3845e6f1",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2014/03/fentry/Shot"
+          },
+          {
+            "@id": "_:Ncfd1256388114ca9b6210e4fe042919c"
+          },
+          {
+            "@id": "_:N9cff9eb460fc4314ab9823f6662759a2"
+          },
+          {
+            "@id": "_:N8410e628e761489298748fafdbb30a95"
+          },
+          {
+            "@id": "_:Nb372e85edf8a40f0a04b6bf093227818"
+          },
+          {
+            "@id": "_:N6c76d2b1bc834a6fbcde0a4abd732d32"
+          },
+          {
+            "@id": "_:Nf89062cc2761413f86c7b03c0b6bc7c6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncfd1256388114ca9b6210e4fe042919c",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/Expression"
+          },
+          {
+            "@id": "_:N785ae2b09c074c319f5600de6de90a50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N785ae2b09c074c319f5600de6de90a50",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/spar/fabio/hasRepresentation"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:Nb017d825b59440f88f22a83c5213ad2f"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb017d825b59440f88f22a83c5213ad2f",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/Item"
+          },
+          {
+            "@id": "_:Ne0dd69c4443b47bb8ec847e882e131ce"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne0dd69c4443b47bb8ec847e882e131ce",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#subjectOf"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9cff9eb460fc4314ab9823f6662759a2",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/Item"
+          },
+          {
+            "@id": "_:N686dee1c7d384269bdc97e88b876fc08"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N686dee1c7d384269bdc97e88b876fc08",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/spar/fabio/isPortrayalOf"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8410e628e761489298748fafdbb30a95",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/Manifestation"
+          },
+          {
+            "@id": "_:N99b0c898d46e40a9a158bef92a779faa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N99b0c898d46e40a9a158bef92a779faa",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#embodimentOf"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.essepuntato.it/2014/03/fentry/Shot"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb372e85edf8a40f0a04b6bf093227818",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/Manifestation"
+          },
+          {
+            "@id": "_:N4d09146df0604a059aab441ad809c3e5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N4d09146df0604a059aab441ad809c3e5",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#exemplar"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:Nebabfbfc19bd404c9240574f5ec1eac8"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nebabfbfc19bd404c9240574f5ec1eac8",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/Item"
+          },
+          {
+            "@id": "_:N42c504c1d7f940299eceabd120589ab9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N42c504c1d7f940299eceabd120589ab9",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#subjectOf"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6c76d2b1bc834a6fbcde0a4abd732d32",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/Work"
+          },
+          {
+            "@id": "_:N4071bbe645dc40a483d2ed17056950ab"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N4071bbe645dc40a483d2ed17056950ab",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/spar/fabio/hasPortrayal"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:N9903c6fe3c51422f8d22dfc15eaaeffb"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9903c6fe3c51422f8d22dfc15eaaeffb",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/Item"
+          },
+          {
+            "@id": "_:N8c320888908d4834b24276931e754636"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N8c320888908d4834b24276931e754636",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#subjectOf"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf89062cc2761413f86c7b03c0b6bc7c6",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "_:N9cef05e176dd42799fbd7cf19382a716"
+          },
+          {
+            "@id": "_:N897327eb16484f08a9758bf28030bd20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N9cef05e176dd42799fbd7cf19382a716",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/Item"
+          },
+          {
+            "@id": "http://purl.org/vocab/frbr/core#Object"
+          },
+          {
+            "@id": "http://purl.org/vocab/frbr/core#Place"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N897327eb16484f08a9758bf28030bd20",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#subjectOf"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2014/03/fentry",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology"
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@value": "Marilena Daquino"
+      },
+      {
+        "@language": "en",
+        "@value": "Silvio Peroni"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/date": [
+      {
+        "@value": "2016-12-15"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "@id": "http://svn.code.sf.net/p/dwellonit/code/FEO/fentry.png"
+      },
+      {
+        "@language": "en",
+        "@value": "The Scheda F is a document containing metadata describing a photograph having as subject a concrete object (or part of it) or a group of different objects. \n\nAny Scheda F (F), as well as the photograph (P) it describes and the subjects of such photograph (S), can be described in terms of some entities of the Functional Requirements for Bibliographic Records, i.e., Work (referring to the essence of the object; it applies to F, P and S), Expression (referring to the content of the object; it applies to F and, P), Manifestation (referring to the format of the object; it applies to P and S) and Item (referring to the physical location of the object; it applies to F, P and S). All these objects, i.e., the Scheda F, the photograph and the related object portrayed, are subject to authorial attribution as result of some production activity involving someone.\n\nExemples of [usage](http://svn.code.sf.net/p/dwellonit/code/FEO/examples.html) of this ontology as well as exemplar [SPARQL queries](http://svn.code.sf.net/p/dwellonit/code/FEO/sparql.html) are available online."
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "@language": "en",
+        "@value": "F Entry (Scheda F) Ontology\nFEO"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Description of a photograph: metadata and subjects."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "F Entry Ontology"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "http://purl.org/spar/pro/"
+      },
+      {
+        "@id": "http://purl.org/spar/scoro/"
+      },
+      {
+        "@id": "http://purl.org/spar/fabio"
+      },
+      {
+        "@id": "http://purl.org/emmedi/hico"
+      },
+      {
+        "@id": "http://purl.org/spar/cito/"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionIRI": [
+      {
+        "@id": "http://www.essepuntato.it/2014/03/fentry/1.0"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/vocab/frbr/core#exemplar",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/prov#endedAtTime",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/fabio/Item",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/vocab/frbr/core#subject",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/fabio/hasPortrayal",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2001/XMLSchema#date",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/prov#generated",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "It is a static, visual representation of some concrete object (or part of it) or a group of different objects."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "photograph"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:Nb91313c20f4044de856c156ceed6c127"
+      },
+      {
+        "@id": "_:N449cd661edce41f6b7d0c65659c002e0"
+      },
+      {
+        "@id": "http://purl.org/spar/fabio/StillImage"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb91313c20f4044de856c156ceed6c127",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://www.essepuntato.it/2014/03/fentry/Shot"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#realization"
+      }
+    ]
+  },
+  {
+    "@id": "_:N449cd661edce41f6b7d0c65659c002e0",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#subject"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:Nbfeab0a3a57c4dc189088c8ca413d9ff"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbfeab0a3a57c4dc189088c8ca413d9ff",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/AnalogItem"
+          },
+          {
+            "@id": "http://purl.org/vocab/frbr/core#Object"
+          },
+          {
+            "@id": "http://purl.org/vocab/frbr/core#Place"
+          },
+          {
+            "@id": "_:Nd6fa4e9ec667427a8c930d0f9bcebb5d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd6fa4e9ec667427a8c930d0f9bcebb5d",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/ItemCollection"
+          },
+          {
+            "@id": "_:N450e1437e61641d58618a69cfa7e6333"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N450e1437e61641d58618a69cfa7e6333",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/fabio/AnalogItem"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#part"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/prov#wasAttributedTo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/fabio/hasManifestation",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/fabio/Work",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2014/03/fentry/isDescribedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "It allows one to link a photograph and portrayed object to the scheda F that describes them."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "is described by"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/vocab/frbr/core#partOf",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/prov#startedAtTime",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2001/XMLSchema#gMonthYear",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/fabio/Manifestation",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2014/03/fentry/FEntry",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "It is a document containing metadata about a photograph and about the concrete object portrayed by the photograph."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "scheda F"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://purl.org/spar/fabio/EntityMetadata"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/vocab/frbr/core#ResponsibleEntity",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  }
+]
