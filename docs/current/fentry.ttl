@@ -1,9 +1,9 @@
-@prefix : <http://www.essepuntato.it/2014/03/fentry#> .
+@prefix : <https://w3id.org/people/essepuntato/fentry#> .
 @prefix c4o: <http://purl.org/spar/c4o/> .
 @prefix cpannotationschema: <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
-@prefix fentry: <http://www.essepuntato.it/2014/03/fentry/> .
+@prefix fentry: <https://w3id.org/people/essepuntato/fentry/> .
 @prefix frbr: <http://purl.org/vocab/frbr/core#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -22,7 +22,7 @@ frbr:ResponsibleEntity a owl:Class .
 
 frbr:partOf a owl:ObjectProperty .
 
-<http://www.essepuntato.it/2014/03/fentry> a owl:Ontology ;
+<https://w3id.org/people/essepuntato/fentry> a owl:Ontology ;
     rdfs:label "F Entry Ontology"@en ;
     dc:creator "Marilena Daquino",
         "Silvio Peroni"@en ;
@@ -41,7 +41,7 @@ FEO"""@en ;
         <http://purl.org/spar/fabio>,
         <http://purl.org/spar/pro/>,
         <http://purl.org/spar/scoro/> ;
-    owl:versionIRI <http://www.essepuntato.it/2014/03/fentry/1.0> ;
+    owl:versionIRI <https://w3id.org/people/essepuntato/fentry/1.0> ;
     owl:versionInfo 1.0 .
 
 fentry:describes a owl:ObjectProperty ;

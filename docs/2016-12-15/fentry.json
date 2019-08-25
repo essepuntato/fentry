@@ -6,7 +6,7 @@
     ]
   },
   {
-    "@id": "http://www.essepuntato.it/2014/03/fentry/Shot",
+    "@id": "https://w3id.org/people/essepuntato/fentry/Shot",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -41,7 +41,7 @@
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+        "@id": "https://w3id.org/people/essepuntato/fentry/Photograph"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -131,7 +131,7 @@
     ]
   },
   {
-    "@id": "http://www.essepuntato.it/2014/03/fentry/describes",
+    "@id": "https://w3id.org/people/essepuntato/fentry/describes",
     "@type": [
       "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
@@ -143,7 +143,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "http://www.essepuntato.it/2014/03/fentry/FEntry"
+        "@id": "https://w3id.org/people/essepuntato/fentry/FEntry"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -158,7 +158,7 @@
     ],
     "http://www.w3.org/2002/07/owl#inverseOf": [
       {
-        "@id": "http://www.essepuntato.it/2014/03/fentry/isDescribedBy"
+        "@id": "https://w3id.org/people/essepuntato/fentry/isDescribedBy"
       }
     ]
   },
@@ -171,10 +171,10 @@
       {
         "@list": [
           {
-            "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+            "@id": "https://w3id.org/people/essepuntato/fentry/Photograph"
           },
           {
-            "@id": "http://www.essepuntato.it/2014/03/fentry/Shot"
+            "@id": "https://w3id.org/people/essepuntato/fentry/Shot"
           },
           {
             "@id": "_:Ncfd1256388114ca9b6210e4fe042919c"
@@ -262,7 +262,7 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+        "@id": "https://w3id.org/people/essepuntato/fentry/Photograph"
       }
     ]
   },
@@ -296,7 +296,7 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+        "@id": "https://w3id.org/people/essepuntato/fentry/Photograph"
       }
     ]
   },
@@ -330,7 +330,7 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "http://www.essepuntato.it/2014/03/fentry/Shot"
+        "@id": "https://w3id.org/people/essepuntato/fentry/Shot"
       }
     ]
   },
@@ -398,7 +398,7 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+        "@id": "https://w3id.org/people/essepuntato/fentry/Photograph"
       }
     ]
   },
@@ -466,7 +466,7 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+        "@id": "https://w3id.org/people/essepuntato/fentry/Photograph"
       }
     ]
   },
@@ -521,12 +521,12 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph"
+        "@id": "https://w3id.org/people/essepuntato/fentry/Photograph"
       }
     ]
   },
   {
-    "@id": "http://www.essepuntato.it/2014/03/fentry",
+    "@id": "https://w3id.org/people/essepuntato/fentry",
     "@type": [
       "http://www.w3.org/2002/07/owl#Ontology"
     ],
@@ -590,7 +590,7 @@
     ],
     "http://www.w3.org/2002/07/owl#versionIRI": [
       {
-        "@id": "http://www.essepuntato.it/2014/03/fentry/1.0"
+        "@id": "https://w3id.org/people/essepuntato/fentry/1.0"
       }
     ],
     "http://www.w3.org/2002/07/owl#versionInfo": [
@@ -643,7 +643,7 @@
     ]
   },
   {
-    "@id": "http://www.essepuntato.it/2014/03/fentry/Photograph",
+    "@id": "https://w3id.org/people/essepuntato/fentry/Photograph",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -678,7 +678,7 @@
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "http://www.essepuntato.it/2014/03/fentry/Shot"
+        "@id": "https://w3id.org/people/essepuntato/fentry/Shot"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -780,7 +780,7 @@
     ]
   },
   {
-    "@id": "http://www.essepuntato.it/2014/03/fentry/isDescribedBy",
+    "@id": "https://w3id.org/people/essepuntato/fentry/isDescribedBy",
     "@type": [
       "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
@@ -822,7 +822,7 @@
     ]
   },
   {
-    "@id": "http://www.essepuntato.it/2014/03/fentry/FEntry",
+    "@id": "https://w3id.org/people/essepuntato/fentry/FEntry",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

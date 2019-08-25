@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.essepuntato.it/2014/03/fentry#"
-     xml:base="http://www.essepuntato.it/2014/03/fentry"
+<rdf:RDF xmlns="https://w3id.org/people/essepuntato/fentry#"
+     xml:base="https://w3id.org/people/essepuntato/fentry"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:fabio="http://purl.org/spar/fabio/"
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#"
@@ -13,12 +13,12 @@
      xmlns:sw-vocab-status="http://www.w3.org/2003/06/sw-vocab-status/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:fentry="http://www.essepuntato.it/2014/03/fentry/"
+     xmlns:fentry="https://w3id.org/people/essepuntato/fentry/"
      xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:c4o="http://purl.org/spar/c4o/">
-    <owl:Ontology rdf:about="http://www.essepuntato.it/2014/03/fentry">
-        <owl:versionIRI rdf:resource="http://www.essepuntato.it/2014/03/fentry/1.0"/>
+    <owl:Ontology rdf:about="https://w3id.org/people/essepuntato/fentry">
+        <owl:versionIRI rdf:resource="https://w3id.org/people/essepuntato/fentry/1.0"/>
         <owl:imports rdf:resource="http://purl.org/spar/cito/"/>
         <owl:imports rdf:resource="http://purl.org/spar/fabio"/>
         <owl:imports rdf:resource="http://purl.org/spar/pro/"/>
@@ -112,16 +112,16 @@ FEO</dc:title>
     
 
 
-    <!-- http://www.essepuntato.it/2014/03/fentry/describes -->
+    <!-- https://w3id.org/people/essepuntato/fentry/describes -->
 
-    <owl:ObjectProperty rdf:about="http://www.essepuntato.it/2014/03/fentry/describes">
-        <owl:inverseOf rdf:resource="http://www.essepuntato.it/2014/03/fentry/isDescribedBy"/>
-        <rdfs:domain rdf:resource="http://www.essepuntato.it/2014/03/fentry/FEntry"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/people/essepuntato/fentry/describes">
+        <owl:inverseOf rdf:resource="https://w3id.org/people/essepuntato/fentry/isDescribedBy"/>
+        <rdfs:domain rdf:resource="https://w3id.org/people/essepuntato/fentry/FEntry"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
-                    <rdf:Description rdf:about="http://www.essepuntato.it/2014/03/fentry/Shot"/>
+                    <rdf:Description rdf:about="https://w3id.org/people/essepuntato/fentry/Photograph"/>
+                    <rdf:Description rdf:about="https://w3id.org/people/essepuntato/fentry/Shot"/>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.org/spar/fabio/Expression"/>
@@ -133,7 +133,7 @@ FEO</dc:title>
                                             <rdf:Description rdf:about="http://purl.org/spar/fabio/Item"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#subjectOf"/>
-                                                <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+                                                <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -146,7 +146,7 @@ FEO</dc:title>
                             <rdf:Description rdf:about="http://purl.org/spar/fabio/Item"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/spar/fabio/isPortrayalOf"/>
-                                <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+                                <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -155,7 +155,7 @@ FEO</dc:title>
                             <rdf:Description rdf:about="http://purl.org/spar/fabio/Manifestation"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#embodimentOf"/>
-                                <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Shot"/>
+                                <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Shot"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -170,7 +170,7 @@ FEO</dc:title>
                                             <rdf:Description rdf:about="http://purl.org/spar/fabio/Item"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#subjectOf"/>
-                                                <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+                                                <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -189,7 +189,7 @@ FEO</dc:title>
                                             <rdf:Description rdf:about="http://purl.org/spar/fabio/Item"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#subjectOf"/>
-                                                <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+                                                <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -208,7 +208,7 @@ FEO</dc:title>
                             </owl:Class>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#subjectOf"/>
-                                <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+                                <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -221,9 +221,9 @@ FEO</dc:title>
     
 
 
-    <!-- http://www.essepuntato.it/2014/03/fentry/isDescribedBy -->
+    <!-- https://w3id.org/people/essepuntato/fentry/isDescribedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.essepuntato.it/2014/03/fentry/isDescribedBy">
+    <owl:ObjectProperty rdf:about="https://w3id.org/people/essepuntato/fentry/isDescribedBy">
         <rdfs:comment xml:lang="en">It allows one to link a photograph and portrayed object to the scheda F that describes them.</rdfs:comment>
         <rdfs:label xml:lang="en">is described by</rdfs:label>
     </owl:ObjectProperty>
@@ -306,9 +306,9 @@ FEO</dc:title>
     
 
 
-    <!-- http://www.essepuntato.it/2014/03/fentry/FEntry -->
+    <!-- https://w3id.org/people/essepuntato/fentry/FEntry -->
 
-    <owl:Class rdf:about="http://www.essepuntato.it/2014/03/fentry/FEntry">
+    <owl:Class rdf:about="https://w3id.org/people/essepuntato/fentry/FEntry">
         <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/EntityMetadata"/>
         <rdfs:comment xml:lang="en">It is a document containing metadata about a photograph and about the concrete object portrayed by the photograph.</rdfs:comment>
         <rdfs:label xml:lang="it">scheda F</rdfs:label>
@@ -316,9 +316,9 @@ FEO</dc:title>
     
 
 
-    <!-- http://www.essepuntato.it/2014/03/fentry/Photograph -->
+    <!-- https://w3id.org/people/essepuntato/fentry/Photograph -->
 
-    <owl:Class rdf:about="http://www.essepuntato.it/2014/03/fentry/Photograph">
+    <owl:Class rdf:about="https://w3id.org/people/essepuntato/fentry/Photograph">
         <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/StillImage"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -346,7 +346,7 @@ FEO</dc:title>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realization"/>
-                <owl:allValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Shot"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Shot"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">It is a static, visual representation of some concrete object (or part of it) or a group of different objects.</rdfs:comment>
@@ -355,9 +355,9 @@ FEO</dc:title>
     
 
 
-    <!-- http://www.essepuntato.it/2014/03/fentry/Shot -->
+    <!-- https://w3id.org/people/essepuntato/fentry/Shot -->
 
-    <owl:Class rdf:about="http://www.essepuntato.it/2014/03/fentry/Shot">
+    <owl:Class rdf:about="https://w3id.org/people/essepuntato/fentry/Shot">
         <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -383,7 +383,7 @@ FEO</dc:title>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
-                <owl:allValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">The realisation of a photograph - it is strictly related with the act of taking the picture by someone.</rdfs:comment>

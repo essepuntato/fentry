@@ -8,12 +8,12 @@
   <rdf:Description rdf:nodeID="Nb91313c20f4044de856c156ceed6c127">
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realization"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:allValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Shot"/>
+    <owl:allValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Shot"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N42c504c1d7f940299eceabd120589ab9">
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#subjectOf"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+    <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N445549ec48594c0aadd408c682495f6b">
     <rdf:rest rdf:nodeID="N6f075c47edbf4cbfad6e1d1085158f44"/>
@@ -29,17 +29,17 @@
   </rdf:Description>
   <rdf:Description rdf:nodeID="Ne60dd90248934eaa800a21a4c83e8438">
     <rdf:rest rdf:nodeID="N8da8f52cf04b46a5b7f8eb9d4d4f1c85"/>
-    <rdf:first rdf:resource="http://www.essepuntato.it/2014/03/fentry/Shot"/>
+    <rdf:first rdf:resource="https://w3id.org/people/essepuntato/fentry/Shot"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N686dee1c7d384269bdc97e88b876fc08">
-    <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+    <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
     <owl:onProperty rdf:resource="http://purl.org/spar/fabio/isPortrayalOf"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N897327eb16484f08a9758bf28030bd20">
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#subjectOf"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+    <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nbfeab0a3a57c4dc189088c8ca413d9ff">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -52,7 +52,7 @@
   <rdf:Description rdf:about="http://www.w3.org/ns/prov#generated">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.essepuntato.it/2014/03/fentry/Shot">
+  <rdf:Description rdf:about="https://w3id.org/people/essepuntato/fentry/Shot">
     <rdfs:comment xml:lang="en">The realisation of a photograph - it is strictly related with the act of taking the picture by someone.</rdfs:comment>
     <rdfs:label xml:lang="en">shot</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -60,24 +60,24 @@
     <rdfs:subClassOf rdf:nodeID="N47d8b2624e4b4661a04747de0b4c128f"/>
     <rdfs:subClassOf rdf:nodeID="N28d0b137dd5f4eceb2aa9fe25bf13ad2"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.essepuntato.it/2014/03/fentry/describes">
+  <rdf:Description rdf:about="https://w3id.org/people/essepuntato/fentry/describes">
     <rdfs:label>describes</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:comment xml:lang="en">It allows one to link a Scheda F to the photograph and the portrayed object the Scheda F describes.</rdfs:comment>
     <rdfs:range rdf:nodeID="Nd2ac57069ec64294aac6bc7a3845e6f1"/>
-    <owl:inverseOf rdf:resource="http://www.essepuntato.it/2014/03/fentry/isDescribedBy"/>
-    <rdfs:domain rdf:resource="http://www.essepuntato.it/2014/03/fentry/FEntry"/>
+    <owl:inverseOf rdf:resource="https://w3id.org/people/essepuntato/fentry/isDescribedBy"/>
+    <rdfs:domain rdf:resource="https://w3id.org/people/essepuntato/fentry/FEntry"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasAssociatedWith">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.essepuntato.it/2014/03/fentry/FEntry">
+  <rdf:Description rdf:about="https://w3id.org/people/essepuntato/fentry/FEntry">
     <rdfs:label xml:lang="it">scheda F</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:comment xml:lang="en">It is a document containing metadata about a photograph and about the concrete object portrayed by the photograph.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/EntityMetadata"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.essepuntato.it/2014/03/fentry">
+  <rdf:Description rdf:about="https://w3id.org/people/essepuntato/fentry">
     <owl:imports rdf:resource="http://purl.org/spar/pro/"/>
     <dc:description rdf:resource="http://svn.code.sf.net/p/dwellonit/code/FEO/fentry.png"/>
     <dc:creator>Marilena Daquino</dc:creator>
@@ -96,7 +96,7 @@ Exemples of [usage](http://svn.code.sf.net/p/dwellonit/code/FEO/examples.html) o
     <dc:date>2016-12-15</dc:date>
     <owl:imports rdf:resource="http://purl.org/emmedi/hico"/>
     <owl:imports rdf:resource="http://purl.org/spar/cito/"/>
-    <owl:versionIRI rdf:resource="http://www.essepuntato.it/2014/03/fentry/1.0"/>
+    <owl:versionIRI rdf:resource="https://w3id.org/people/essepuntato/fentry/1.0"/>
     <dc:title xml:lang="en">F Entry (Scheda F) Ontology
 FEO</dc:title>
   </rdf:Description>
@@ -112,7 +112,7 @@ FEO</dc:title>
   <rdf:Description rdf:nodeID="N47d8b2624e4b4661a04747de0b4c128f">
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:allValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+    <owl:allValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N8410e628e761489298748fafdbb30a95">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -126,7 +126,7 @@ FEO</dc:title>
     <owl:unionOf rdf:nodeID="N043ebeaf076e4d6e9910195112ee095c"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.essepuntato.it/2014/03/fentry/Photograph">
+  <rdf:Description rdf:about="https://w3id.org/people/essepuntato/fentry/Photograph">
     <rdfs:subClassOf rdf:nodeID="Nb91313c20f4044de856c156ceed6c127"/>
     <rdfs:comment xml:lang="en">It is a static, visual representation of some concrete object (or part of it) or a group of different objects.</rdfs:comment>
     <rdfs:subClassOf rdf:nodeID="N449cd661edce41f6b7d0c65659c002e0"/>
@@ -145,7 +145,7 @@ FEO</dc:title>
     <rdf:first rdf:resource="http://purl.org/spar/fabio/Item"/>
     <rdf:rest rdf:nodeID="Nd4ad0bbd39fb427b851dab4e3b4f1480"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.essepuntato.it/2014/03/fentry/isDescribedBy">
+  <rdf:Description rdf:about="https://w3id.org/people/essepuntato/fentry/isDescribedBy">
     <rdfs:label xml:lang="en">is described by</rdfs:label>
     <rdfs:comment xml:lang="en">It allows one to link a photograph and portrayed object to the scheda F that describes them.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -155,7 +155,7 @@ FEO</dc:title>
     <rdf:first rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N8c320888908d4834b24276931e754636">
-    <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+    <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#subjectOf"/>
   </rdf:Description>
@@ -240,7 +240,7 @@ FEO</dc:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nea543cb983fe442d82a19f2cc186b06e">
-    <rdf:first rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+    <rdf:first rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
     <rdf:rest rdf:nodeID="Ne60dd90248934eaa800a21a4c83e8438"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nc6f50d2e21134f78a2d06ca6fbc088c6">
@@ -261,7 +261,7 @@ FEO</dc:title>
   <rdf:Description rdf:nodeID="Ne0dd69c4443b47bb8ec847e882e131ce">
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#subjectOf"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Photograph"/>
+    <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Photograph"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N9a76bc25965c412a845b38737724f810">
     <rdf:first rdf:nodeID="Ne0dd69c4443b47bb8ec847e882e131ce"/>
@@ -299,7 +299,7 @@ FEO</dc:title>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N99b0c898d46e40a9a158bef92a779faa">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:someValuesFrom rdf:resource="http://www.essepuntato.it/2014/03/fentry/Shot"/>
+    <owl:someValuesFrom rdf:resource="https://w3id.org/people/essepuntato/fentry/Shot"/>
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#embodimentOf"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nd4ad0bbd39fb427b851dab4e3b4f1480">
