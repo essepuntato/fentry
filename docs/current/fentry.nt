@@ -1,37 +1,37 @@
-_:Nb91313c20f4044de856c156ceed6c127 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/people/essepuntato/fentry/Shot> .
+_:Nb91313c20f4044de856c156ceed6c127 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.essepuntato.it/2014/03/fentry/Shot> .
 _:N42c504c1d7f940299eceabd120589ab9 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#subjectOf> .
 _:N445549ec48594c0aadd408c682495f6b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N6f075c47edbf4cbfad6e1d1085158f44 .
 _:Ne5c1be5a8b2a49fe8d2b7679667ffe65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:Ncc75da60671f47f8a96529f13eb9bba3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/Item> .
-_:Ne60dd90248934eaa800a21a4c83e8438 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/people/essepuntato/fentry/Shot> .
+_:Ne60dd90248934eaa800a21a4c83e8438 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2014/03/fentry/Shot> .
 _:N686dee1c7d384269bdc97e88b876fc08 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:N897327eb16484f08a9758bf28030bd20 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#subjectOf> .
 _:Nbfeab0a3a57c4dc189088c8ca413d9ff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:Nd2ac57069ec64294aac6bc7a3845e6f1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/ns/prov#generated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/people/essepuntato/fentry/Shot> <http://www.w3.org/2000/01/rdf-schema#comment> "The realisation of a photograph - it is strictly related with the act of taking the picture by someone."@en .
+<http://www.essepuntato.it/2014/03/fentry/Shot> <http://www.w3.org/2000/01/rdf-schema#comment> "The realisation of a photograph - it is strictly related with the act of taking the picture by someone."@en .
 _:N42c504c1d7f940299eceabd120589ab9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://w3id.org/people/essepuntato/fentry/describes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.essepuntato.it/2014/03/fentry/describes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.w3.org/ns/prov#wasAssociatedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/people/essepuntato/fentry/FEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2014/03/fentry/FEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/people/essepuntato/fentry> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of a photograph: metadata and subjects."@en .
 _:N449cd661edce41f6b7d0c65659c002e0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://w3id.org/people/essepuntato/fentry/describes> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/people/essepuntato/fentry/FEntry> .
+<http://www.essepuntato.it/2014/03/fentry/describes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.essepuntato.it/2014/03/fentry/FEntry> .
 _:N64fdd6b02a7f4b348334546b8d4129bb <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N785ae2b09c074c319f5600de6de90a50 .
-_:N47d8b2624e4b4661a04747de0b4c128f <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/people/essepuntato/fentry/Photograph> .
+_:N47d8b2624e4b4661a04747de0b4c128f <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.essepuntato.it/2014/03/fentry/Photograph> .
 _:N8410e628e761489298748fafdbb30a95 <http://www.w3.org/2002/07/owl#intersectionOf> _:Na57c4a32481e4e3aba17323ad7a74f42 .
 <https://w3id.org/people/essepuntato/fentry> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/people/essepuntato/fentry/1.0> .
 _:N043ebeaf076e4d6e9910195112ee095c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N2a84e4712d9046b4ac0ce028a09d36cf .
 _:N9cef05e176dd42799fbd7cf19382a716 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:N9cef05e176dd42799fbd7cf19382a716 <http://www.w3.org/2002/07/owl#unionOf> _:N043ebeaf076e4d6e9910195112ee095c .
-<https://w3id.org/people/essepuntato/fentry/Photograph> <http://www.w3.org/2000/01/rdf-schema#label> "photograph"@en .
+<http://www.essepuntato.it/2014/03/fentry/Photograph> <http://www.w3.org/2000/01/rdf-schema#label> "photograph"@en .
 <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/people/essepuntato/fentry> <http://purl.org/dc/elements/1.1/creator> "Marilena Daquino" .
 _:N686dee1c7d384269bdc97e88b876fc08 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/fabio/isPortrayalOf> .
-<https://w3id.org/people/essepuntato/fentry/Shot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/Expression> .
+<http://www.essepuntato.it/2014/03/fentry/Shot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/Expression> .
 _:N8abc55abbe734ff4a5e28e8a10b45bab <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:Ncb868f3a19bb4834b38939086c97a1ca <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/Item> .
-<https://w3id.org/people/essepuntato/fentry/isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "It allows one to link a photograph and portrayed object to the scheda F that describes them."@en .
+<http://www.essepuntato.it/2014/03/fentry/isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "It allows one to link a photograph and portrayed object to the scheda F that describes them."@en .
 _:N00e9832abb2d4d5487dbbc736b86b5d8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/vocab/frbr/core#Place> .
 _:N8c320888908d4834b24276931e754636 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#subjectOf> .
 _:Nb91313c20f4044de856c156ceed6c127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
@@ -61,18 +61,18 @@ _:Nacf0ee136dd74d03919888a57d227533 <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 _:Nd0c55771f8684e829658c23e1e7970e1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:N3730b6a3fb65451f9acae7ae534d5626 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/ItemCollection> .
 <http://purl.org/spar/fabio/hasPortrayal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:Nea543cb983fe442d82a19f2cc186b06e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/people/essepuntato/fentry/Photograph> .
+_:Nea543cb983fe442d82a19f2cc186b06e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2014/03/fentry/Photograph> .
 _:N4d09146df0604a059aab441ad809c3e5 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#exemplar> .
 _:N2a05c3ec319849aa83aa1fe1e7c35eb6 <http://www.w3.org/2002/07/owl#unionOf> _:N8c1f663bf0574b5ab424301df3960287 .
 _:N5ee43a1164a042b69b6f06fd702e9aa5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nc6f50d2e21134f78a2d06ca6fbc088c6 .
 _:Nc6f50d2e21134f78a2d06ca6fbc088c6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N6c76d2b1bc834a6fbcde0a4abd732d32 .
 _:N28d0b137dd5f4eceb2aa9fe25bf13ad2 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#embodiment> .
 _:N6d3bc58455c84924bd775982826b50ac <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://w3id.org/people/essepuntato/fentry/Shot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N47d8b2624e4b4661a04747de0b4c128f .
+<http://www.essepuntato.it/2014/03/fentry/Shot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N47d8b2624e4b4661a04747de0b4c128f .
 <https://w3id.org/people/essepuntato/fentry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 _:N6c76d2b1bc834a6fbcde0a4abd732d32 <http://www.w3.org/2002/07/owl#intersectionOf> _:N6f5280706a2441feb8cf3c1c0f8c0465 .
 <https://w3id.org/people/essepuntato/fentry> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/emmedi/hico> .
-_:N42c504c1d7f940299eceabd120589ab9 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/people/essepuntato/fentry/Photograph> .
+_:N42c504c1d7f940299eceabd120589ab9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.essepuntato.it/2014/03/fentry/Photograph> .
 _:N043ebeaf076e4d6e9910195112ee095c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/Item> .
 _:N450e1437e61641d58618a69cfa7e6333 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:N449cd661edce41f6b7d0c65659c002e0 <http://www.w3.org/2002/07/owl#someValuesFrom> _:Nbfeab0a3a57c4dc189088c8ca413d9ff .
@@ -81,18 +81,18 @@ _:N450e1437e61641d58618a69cfa7e6333 <http://www.w3.org/2002/07/owl#onProperty> <
 _:Nc406536099c442b9b963f6eb83cb5270 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N64fdd6b02a7f4b348334546b8d4129bb .
 <http://purl.org/vocab/frbr/core#subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 _:N00e9832abb2d4d5487dbbc736b86b5d8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:Ne0dd69c4443b47bb8ec847e882e131ce <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/people/essepuntato/fentry/Photograph> .
-_:N8c320888908d4834b24276931e754636 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/people/essepuntato/fentry/Photograph> .
+_:Ne0dd69c4443b47bb8ec847e882e131ce <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.essepuntato.it/2014/03/fentry/Photograph> .
+_:N8c320888908d4834b24276931e754636 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.essepuntato.it/2014/03/fentry/Photograph> .
 _:N8abc55abbe734ff4a5e28e8a10b45bab <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N99b0c898d46e40a9a158bef92a779faa .
 _:N9a76bc25965c412a845b38737724f810 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://w3id.org/people/essepuntato/fentry/Shot> <http://www.w3.org/2000/01/rdf-schema#label> "shot"@en .
+<http://www.essepuntato.it/2014/03/fentry/Shot> <http://www.w3.org/2000/01/rdf-schema#label> "shot"@en .
 _:N445549ec48594c0aadd408c682495f6b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/Item> .
 _:N4071bbe645dc40a483d2ed17056950ab <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/fabio/hasPortrayal> .
 _:Ncb868f3a19bb4834b38939086c97a1ca <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nd4ad0bbd39fb427b851dab4e3b4f1480 .
-<https://w3id.org/people/essepuntato/fentry/describes> <http://www.w3.org/2000/01/rdf-schema#range> _:Nd2ac57069ec64294aac6bc7a3845e6f1 .
-<https://w3id.org/people/essepuntato/fentry/Photograph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N449cd661edce41f6b7d0c65659c002e0 .
+<http://www.essepuntato.it/2014/03/fentry/describes> <http://www.w3.org/2000/01/rdf-schema#range> _:Nd2ac57069ec64294aac6bc7a3845e6f1 .
+<http://www.essepuntato.it/2014/03/fentry/Photograph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N449cd661edce41f6b7d0c65659c002e0 .
 _:Ne60dd90248934eaa800a21a4c83e8438 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N8da8f52cf04b46a5b7f8eb9d4d4f1c85 .
-<https://w3id.org/people/essepuntato/fentry/FEntry> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a document containing metadata about a photograph and about the concrete object portrayed by the photograph."@en .
+<http://www.essepuntato.it/2014/03/fentry/FEntry> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a document containing metadata about a photograph and about the concrete object portrayed by the photograph."@en .
 _:Nfb1d6c14392b4499a92a642e969068d6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N9ffd074d638547f88a38524c55696a6b .
 _:Nb017d825b59440f88f22a83c5213ad2f <http://www.w3.org/2002/07/owl#intersectionOf> _:Ncc75da60671f47f8a96529f13eb9bba3 .
 <http://purl.org/spar/fabio/Item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -103,7 +103,7 @@ _:N8da8f52cf04b46a5b7f8eb9d4d4f1c85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 _:N2a84e4712d9046b4ac0ce028a09d36cf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N00e9832abb2d4d5487dbbc736b86b5d8 .
 _:Nadea2a38372f4d75843bb799afb97216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/Item> .
 _:Nc6f50d2e21134f78a2d06ca6fbc088c6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nd9f96a2dd22c4c9b81a8764643530899 .
-_:N99b0c898d46e40a9a158bef92a779faa <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/people/essepuntato/fentry/Shot> .
+_:N99b0c898d46e40a9a158bef92a779faa <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.essepuntato.it/2014/03/fentry/Shot> .
 _:Nacf0ee136dd74d03919888a57d227533 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N9cef05e176dd42799fbd7cf19382a716 .
 _:Nd4ad0bbd39fb427b851dab4e3b4f1480 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N686dee1c7d384269bdc97e88b876fc08 .
 _:N8da8f52cf04b46a5b7f8eb9d4d4f1c85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Ncfd1256388114ca9b6210e4fe042919c .
@@ -122,18 +122,18 @@ _:N9ffd074d638547f88a38524c55696a6b <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 _:N64fdd6b02a7f4b348334546b8d4129bb <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://w3id.org/people/essepuntato/fentry> <http://purl.org/dc/elements/1.1/description> "The Scheda F is a document containing metadata describing a photograph having as subject a concrete object (or part of it) or a group of different objects. \n\nAny Scheda F (F), as well as the photograph (P) it describes and the subjects of such photograph (S), can be described in terms of some entities of the Functional Requirements for Bibliographic Records, i.e., Work (referring to the essence of the object; it applies to F, P and S), Expression (referring to the content of the object; it applies to F and, P), Manifestation (referring to the format of the object; it applies to P and S) and Item (referring to the physical location of the object; it applies to F, P and S). All these objects, i.e., the Scheda F, the photograph and the related object portrayed, are subject to authorial attribution as result of some production activity involving someone.\n\nExemples of [usage](http://svn.code.sf.net/p/dwellonit/code/FEO/examples.html) of this ontology as well as exemplar [SPARQL queries](http://svn.code.sf.net/p/dwellonit/code/FEO/sparql.html) are available online."@en .
 _:N9a76bc25965c412a845b38737724f810 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Ne0dd69c4443b47bb8ec847e882e131ce .
-<https://w3id.org/people/essepuntato/fentry/Photograph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/StillImage> .
+<http://www.essepuntato.it/2014/03/fentry/Photograph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/StillImage> .
 _:N7c0ed9066d2b4cb084ea0fbdd7129cf1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N9cff9eb460fc4314ab9823f6662759a2 .
-<https://w3id.org/people/essepuntato/fentry/describes> <http://www.w3.org/2000/01/rdf-schema#label> "describes" .
-<https://w3id.org/people/essepuntato/fentry/Photograph> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a static, visual representation of some concrete object (or part of it) or a group of different objects."@en .
+<http://www.essepuntato.it/2014/03/fentry/describes> <http://www.w3.org/2000/01/rdf-schema#label> "describes" .
+<http://www.essepuntato.it/2014/03/fentry/Photograph> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a static, visual representation of some concrete object (or part of it) or a group of different objects."@en .
 _:N7bab6f3f7e714fdebe8d19c5668ad909 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/Manifestation> .
 _:Ne5c1be5a8b2a49fe8d2b7679667ffe65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N8c320888908d4834b24276931e754636 .
 <https://w3id.org/people/essepuntato/fentry> <http://purl.org/dc/elements/1.1/description> <http://svn.code.sf.net/p/dwellonit/code/FEO/fentry.png> .
 _:Nec383e0b90384fcd8b29e3c9115cd957 <http://www.w3.org/2002/07/owl#intersectionOf> _:Nf57c214cb68143ed9194c84f3724153c .
-<https://w3id.org/people/essepuntato/fentry/isDescribedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:N897327eb16484f08a9758bf28030bd20 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/people/essepuntato/fentry/Photograph> .
+<http://www.essepuntato.it/2014/03/fentry/isDescribedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N897327eb16484f08a9758bf28030bd20 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.essepuntato.it/2014/03/fentry/Photograph> .
 _:N785ae2b09c074c319f5600de6de90a50 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/fabio/hasRepresentation> .
-<https://w3id.org/people/essepuntato/fentry/FEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/EntityMetadata> .
+<http://www.essepuntato.it/2014/03/fentry/FEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/EntityMetadata> .
 _:Ne0dd69c4443b47bb8ec847e882e131ce <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#subjectOf> .
 <http://purl.org/vocab/frbr/core#exemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 _:Na57c4a32481e4e3aba17323ad7a74f42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N8abc55abbe734ff4a5e28e8a10b45bab .
@@ -148,14 +148,14 @@ _:Nd6fa4e9ec667427a8c930d0f9bcebb5d <http://www.w3.org/2002/07/owl#intersectionO
 _:N21bb36a995fc4ce0a32eeb0af63385b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:N6f5280706a2441feb8cf3c1c0f8c0465 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nd0c55771f8684e829658c23e1e7970e1 .
 <https://w3id.org/people/essepuntato/fentry> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/spar/pro/> .
-<https://w3id.org/people/essepuntato/fentry/Photograph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nb91313c20f4044de856c156ceed6c127 .
-<https://w3id.org/people/essepuntato/fentry/Shot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2014/03/fentry/Photograph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nb91313c20f4044de856c156ceed6c127 .
+<http://www.essepuntato.it/2014/03/fentry/Shot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<https://w3id.org/people/essepuntato/fentry/Photograph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2014/03/fentry/Photograph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:Nf57c214cb68143ed9194c84f3724153c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/DigitalManifestation> .
 <https://w3id.org/people/essepuntato/fentry> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni"@en .
 _:N28d0b137dd5f4eceb2aa9fe25bf13ad2 <http://www.w3.org/2002/07/owl#allValuesFrom> _:N2a05c3ec319849aa83aa1fe1e7c35eb6 .
-<https://w3id.org/people/essepuntato/fentry/Shot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N28d0b137dd5f4eceb2aa9fe25bf13ad2 .
+<http://www.essepuntato.it/2014/03/fentry/Shot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N28d0b137dd5f4eceb2aa9fe25bf13ad2 .
 _:Nfb1d6c14392b4499a92a642e969068d6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/vocab/frbr/core#Object> .
 _:N897327eb16484f08a9758bf28030bd20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:Ne0dd69c4443b47bb8ec847e882e131ce <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
@@ -171,7 +171,7 @@ _:N735872adc9134ce3baec01091d856670 <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 _:N3730b6a3fb65451f9acae7ae534d5626 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Ncbaa98778c9d4d9a98ea8e1cc23ff5cf .
 <http://www.w3.org/2001/XMLSchema#gMonthYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 <https://w3id.org/people/essepuntato/fentry> <http://www.w3.org/2000/01/rdf-schema#label> "F Entry Ontology"@en .
-<https://w3id.org/people/essepuntato/fentry/isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is described by"@en .
+<http://www.essepuntato.it/2014/03/fentry/isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is described by"@en .
 _:Nc406536099c442b9b963f6eb83cb5270 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/Expression> .
 _:Nebabfbfc19bd404c9240574f5ec1eac8 <http://www.w3.org/2002/07/owl#intersectionOf> _:N445549ec48594c0aadd408c682495f6b .
 _:N21bb36a995fc4ce0a32eeb0af63385b8 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#exemplar> .
@@ -185,11 +185,11 @@ _:N6f5280706a2441feb8cf3c1c0f8c0465 <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 _:Nb372e85edf8a40f0a04b6bf093227818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:N6f075c47edbf4cbfad6e1d1085158f44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N42c504c1d7f940299eceabd120589ab9 .
 _:N8c1f663bf0574b5ab424301df3960287 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/AnalogManifestation> .
-_:N686dee1c7d384269bdc97e88b876fc08 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/people/essepuntato/fentry/Photograph> .
+_:N686dee1c7d384269bdc97e88b876fc08 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.essepuntato.it/2014/03/fentry/Photograph> .
 _:N8410e628e761489298748fafdbb30a95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:Ncc75da60671f47f8a96529f13eb9bba3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N9a76bc25965c412a845b38737724f810 .
 _:N8c1f663bf0574b5ab424301df3960287 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N399c4c29459a4fe3887ea13c49318fb9 .
-<https://w3id.org/people/essepuntato/fentry/describes> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/people/essepuntato/fentry/isDescribedBy> .
+<http://www.essepuntato.it/2014/03/fentry/describes> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.essepuntato.it/2014/03/fentry/isDescribedBy> .
 _:Na57c4a32481e4e3aba17323ad7a74f42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/Manifestation> .
 _:Nebabfbfc19bd404c9240574f5ec1eac8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:N9903c6fe3c51422f8d22dfc15eaaeffb <http://www.w3.org/2002/07/owl#intersectionOf> _:Nadea2a38372f4d75843bb799afb97216 .
@@ -206,8 +206,8 @@ _:N895cef1725424dcba777adc1e81d1c3f <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 _:N785ae2b09c074c319f5600de6de90a50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:N4d09146df0604a059aab441ad809c3e5 <http://www.w3.org/2002/07/owl#someValuesFrom> _:Nebabfbfc19bd404c9240574f5ec1eac8 .
 _:N99b0c898d46e40a9a158bef92a779faa <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#embodimentOf> .
-<https://w3id.org/people/essepuntato/fentry/describes> <http://www.w3.org/2000/01/rdf-schema#comment> "It allows one to link a Scheda F to the photograph and the portrayed object the Scheda F describes."@en .
-<https://w3id.org/people/essepuntato/fentry/FEntry> <http://www.w3.org/2000/01/rdf-schema#label> "scheda F"@it .
+<http://www.essepuntato.it/2014/03/fentry/describes> <http://www.w3.org/2000/01/rdf-schema#comment> "It allows one to link a Scheda F to the photograph and the portrayed object the Scheda F describes."@en .
+<http://www.essepuntato.it/2014/03/fentry/FEntry> <http://www.w3.org/2000/01/rdf-schema#label> "scheda F"@it .
 _:Nb372e85edf8a40f0a04b6bf093227818 <http://www.w3.org/2002/07/owl#intersectionOf> _:N7bab6f3f7e714fdebe8d19c5668ad909 .
 _:Nd0c55771f8684e829658c23e1e7970e1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N4071bbe645dc40a483d2ed17056950ab .
 
